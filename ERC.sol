@@ -350,8 +350,8 @@ contract BEP20Standard is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = "Premiato Finance";
-    _symbol = "PMF";
+    _name = "Bitcoin Finance";
+    _symbol = "BTF";
     _decimals = 8;
     _totalSupply = 2100000; // 100 thousand
     _balances[msg.sender] = _totalSupply;
